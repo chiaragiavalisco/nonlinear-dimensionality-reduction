@@ -1,7 +1,7 @@
 # Nonlinear Dimensionality Reduction Techniques: Kernel PCA & Isomap
 
 [![MATLAB](https://img.shields.io/badge/Language-MATLAB-orange.svg)](#)
-[![Course](https://img.shields.io/badge/Course-Numerical%20Methods%20for%20Data%20Mining-blue.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#)
 
 A MATLAB implementation and comparative study of linear and nonlinear manifold learning techniques, developed for the course **Numerical Methods for Data Mining** at *Università degli Studi di Napoli Federico II* (Department of Mathematics and Applications "Renato Caccioppoli").
 
@@ -57,19 +57,38 @@ The repository evaluates these methods across 4 benchmark manifolds:
 
 ---
 
-## 🚀 Getting Started
-Prerequisites
-MATLAB R2020b or later (Statistics and Machine Learning Toolbox recommended for pdist and squareform).
-
-Running the Experiments
-Clone the repository and run any experiment directly in MATLAB:
-
-
----
-
 ## 🔍 Key Findings & Theoretical Insights
 
 * **MDS & Linear Methods**: Preserve global Euclidean distances. When data live on a nonlinear sub-manifold (like the Swiss Roll or S-curve), Euclidean short-circuits across folds cause severe projection overlaps.
 * **Kernel PCA**: Avoids non-convex optimization and extracts nonlinear features by implicit mapping into an RKHS. Highly effective for cluster separation (e.g. concentric circles, fireworks), but very sensitive to the hyperparameter $\sigma$.
 * **Isomap**: Excels at manifold unwrapping (Swiss Roll, S-Curve) because geodesic graph distances reflect intrinsic topology. However, it is computationally intensive ($O(N^3)$ with Floyd-Warshall) and sensitive to topological noise ("short-circuit" edges caused by poor $k$-neighbor selection or non-convex holes).
 
+---
+
+## 🚀 Getting Started & Usage
+
+### Prerequisites
+MATLAB R2020b or later (Statistics and Machine Learning Toolbox recommended for pdist and squareform).
+
+### Running the Script
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/chiaragiavalisco/nonlinear-dimensionality-reduction.git](https://github.com/chiaragiavalisco/nonlinear-dimensionality-reduction.git)
+   cd nonlinear-dimensionality-reduction
+
+2. Open MATLAB, navigate to the cloned folder, and run:
+   ```matlab
+   run('nonlinear_dim_reduction.m')
+   ```
+---
+
+## 👤 Author
+
+**Chiara Giavalisco**  
+* Master's Degree Coursework: *Numerical Methods for Data Mining*  
+* [LinkedIn Profile](https://www.linkedin.com/in/chiara-giavalisco-28b1b9268/) • [GitHub Profile](https://github.com/chiaragiavalisco) • [Email](mailto:chiara.giavalisco@gmail.com)
+
+---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
