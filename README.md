@@ -93,5 +93,15 @@ MATLAB R2020b or later (Statistics and Machine Learning Toolbox recommended for 
 
 ---
 
+## 📚 References
+
+1. **Borg, I., & Groenen, P. J.** (2005). *Modern Multidimensional Scaling: Theory and Applications*. Springer.
+2. **Dijkstra, E. W.** (1959). *A note on two problems in connexion with graphs*. Numerische Mathematik, 1(1), 269–271.
+3. **Schölkopf, B., Smola, A., & Müller, K. R.** (1997). *Kernel principal component analysis*. ICANN, Springer, 583–588.
+4. **Tenenbaum, J. B., de Silva, V., & Langford, J. C.** (2000). *A global geometric framework for nonlinear dimensionality reduction*. Science, 290(5500), 2319–2323.
+5. **Wang, J., & Wang, J.** (2012). *Geometric Structure of High-Dimensional Data and Dimensionality Reduction*. Springer.
+
+---
+
 ## 📄 License
 This project is open-source and available under the [MIT License](LICENSE).
