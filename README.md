@@ -78,7 +78,10 @@ MATLAB R2020b or later (Statistics and Machine Learning Toolbox recommended for 
 
 2. Open MATLAB, navigate to the cloned folder, and run:
    ```matlab
-   run('nonlinear_dim_reduction.m')
+   run('concentric_circles.m')
+   run('swiss_roll.m')
+   run('fireworks.m')
+   run('s_curve.m')
    ```
 ---
 
